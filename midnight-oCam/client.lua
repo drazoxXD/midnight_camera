@@ -3,7 +3,7 @@ local INPUT_AIM = 0
 local UseFPS = false
 local justpressed = 0
 
--- this prevents certain camera modes
+-- kamera mód check
 local disable = 0
 Citizen.CreateThread( function()
 
